@@ -1,0 +1,28 @@
+.timeline-line {
+    transform: translateX(-50%);
+  }
+  
+  .timeline-dot {
+    box-shadow: 0 0 0 4px rgba(8, 145, 178, 0.2);
+    transition: all 0.3s ease;
+  }
+  
+  .experience-item:hover .timeline-dot {
+    transform: scale(1.1);
+    box-shadow: 0 0 0 6px rgba(8, 145, 178, 0.3);
+  }
+  
+  @media (max-width: 767px) {
+    .timeline-line {
+      left: 2rem;
+      transform: none;
+    }
+    
+    .experience-item {
+      padding-left: 4rem;
+    }
+    
+    .timeline-dot {
+      left: 1.5rem;
+    }
+  }

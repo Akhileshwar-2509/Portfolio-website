@@ -1,0 +1,13 @@
+footer {
+    backdrop-filter: blur(10px);
+    background-color: rgba(17, 24, 39, 0.8);
+  }
+  
+  footer svg {
+    transition: all 0.3s ease;
+  }
+  
+  footer:hover svg {
+    transform: scale(1.2);
+    color: #ef4444;
+  }

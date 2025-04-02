@@ -1,0 +1,18 @@
+.achievement-card {
+    transition: all 0.3s ease;
+    border: 1px solid rgba(8, 145, 178, 0.1);
+  }
+  
+  .achievement-card:hover {
+    transform: translateY(-5px);
+    border-color: rgba(8, 145, 178, 0.3);
+  }
+  
+  .achievement-card svg {
+    transition: all 0.3s ease;
+  }
+  
+  .achievement-card:hover svg {
+    transform: scale(1.2);
+    color: #06b6d4;
+  }

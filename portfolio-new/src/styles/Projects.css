@@ -1,0 +1,29 @@
+.project-card {
+    transition: all 0.3s ease;
+    border: 1px solid rgba(8, 145, 178, 0.1);
+  }
+  
+  .project-card:hover {
+    transform: translateY(-5px);
+    border-color: rgba(8, 145, 178, 0.3);
+  }
+  
+  .project-card a {
+    position: relative;
+    padding-bottom: 2px;
+  }
+  
+  .project-card a:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: #06b6d4;
+    transition: width 0.3s ease;
+  }
+  
+  .project-card a:hover:after {
+    width: 100%;
+  }
